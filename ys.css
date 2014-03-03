@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: Verdana,Geneva,Arial,sans-serif;
+	background: url(image/body-bg.jpg);
+	font-size: small;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	color: #363232;
+}
+h1,h2,h3,h4,h5 {
+	color: #363232;
+	font-family: cursive;
+	line-height: 1.2em;	
+}
+h1 {
+	font-size: 2.5em;
+	font-weight: bolder;
+	padding-bottom: 6px; 
+}
+h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: cursive;
+	padding-bottom: 10px; 
+}
+h3 {
+	font-size: 1.3em;
+	font-family: Arial;
+	font-weight: bold;
+}
+h4 {
+	font-size: 1em;
+	font-style: italic;
+	font-family: arial;
+}
+p {
+	line-height: 1em;
+}
+#qb {
+	background: url(image/pattern.jpg);
+	width: 750px;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #fff;
+}
+header {
+	text-align: center;
+	padding: 20px 0px 30px 0px;
+	border-bottom: 1px solid #fff;
+}
+.fontstyle1 {
+	color: #8b4513;
+}
+#nr1 p {
+	line-height: 1.5em;
+	font-family: Gourier New,Verdana,sans-serif;
+}
+#main1 h3 {
+	font-family: cursive;
+	padding: 10px;
+}
+li {
+	padding-bottom: 5px;
+}
+#nr2 {
+	background: url(image/bg2.jpg);
+	border: 10px solid #fff;
+	border-radius: 5px;
+	padding: 40px;
+	float: right;
+	text-align: center;
+}
+input {
+	width: 200px;
+	height: 30px;
+	margin: 5px;
+}
+.sub1 {
+	background: url(image/sub1.png) no-repeat;
+	width: 210px;
+}
+#main1 {
+	padding: 30px 0px;
+	border-bottom: 1px solid #fff;
+}
+#main2 {
+	padding: 30px 0px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+.fontstyle2 {
+	color: #ccc;
+}
+#main2 h4,#main3 h4,#main4 h4 {
+	padding: 0px;
+	margin-top: -10px;
+}
+.imgstyle1 {
+	margin-top: 20px;
+	border: 7px solid #fff;
+	border-radius: 6px;
+}
+#main3 {
+	text-align: center;
+	padding: 30px 0px 40px 0px;
+	border-bottom: 1px solid #fff;
+}
+#panda1 {
+	width: 237px;
+	float: left;
+	padding: 0px 0px;
+}
+#panda2 {
+	width: 236px;
+	float: right;
+	padding: 0px 0px;
+}
+#panda3 {
+	padding: 2px;
+}
+#main4 {
+	text-align: center;
+	padding: 30px 0px;
+	border-bottom: 1px solid #fff;
+}
+#tb1 {
+	width: 200px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #fff;
+}
+#tb2 {
+	padding-left: 240px;
+	padding-top: 10px;
+}
+td {
+	padding: 10px 5px;
+}
